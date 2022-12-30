@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Autography";
+  src: url("/assets/fonts/Autography.otf");
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary: #141414;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* HEADER */
+
+nav.navbar {
+  background-color: var(--primary) !important;
+}
+
+.nav-link {
+  font-size: 1.3em;
+  background: -webkit-linear-gradient(#e5c852, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 1rem;
+}
+
+.navbar-brand img {
+  width: 13%;
+}
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
+    url("/assets/img/fotoinicio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-text {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2.4em;
+  line-height: 55px;
+}
+
+.header-text span {
+  font-family: "Autography";
+  font-size: 2.8em;
+  background: -webkit-linear-gradient(#e5c852, #ab922f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo-background {
+  position: absolute;
+  top: -90%;
+  left: -5%;
+  width: 35%;
+}
+.categories-container {
+  width: 70%;
+  margin: 5rem auto 0 auto;
+}
+
+.categories-container div {
+  width: 100%;
+}
+
+.category {
+  box-shadow: 4px 5px 6px rgb(201, 201, 201);
+  margin: 0 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: scale 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.category:hover {
+  scale: 1.1;
+}
+
+.category img {
+  width: 100%;
+}
+
+.category h3 {
+  font-family: "Autography";
+  font-size: 3em;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.category p {
+  font-size: 0.8em;
+}
