@@ -371,7 +371,7 @@ footer p {
 
 .contact-grid {
   max-width: 40%;
-  margin: 0 auto 6rem auto;
+  margin: 4rem auto 6rem auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(11, 1fr);
