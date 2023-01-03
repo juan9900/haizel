@@ -12,6 +12,12 @@ body {
   --secondary: #e8e73d;
   --secondaryLight: #eedd80;
   --tertiary: #daa8b3;
+  --disabled: rgb(187, 187, 187);
+}
+
+.container-small {
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -243,21 +249,72 @@ footer p {
   background-size: cover;
   height: 80vh;
 }
-
+.section-services {
+  margin-bottom: 3rem;
+}
 .section-title-container {
   background: var(--secondaryLight);
+  height: 6rem;
   width: 22%;
   padding: 0.5rem 0;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+  padding-left: 2rem;
 }
 
 .section-title-container img {
-  width: 20%;
+  height: 100%;
 }
 
 .section-title-container h2 {
   margin: 0;
   font-weight: 200;
   font-size: 2.2em;
+}
+
+.services-list {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.services-list:last-of-type {
+  margin-bottom: 0;
+}
+
+.services-list li {
+  border-bottom: 1px solid var(--secondary);
+  padding: 0.7rem 2rem;
+}
+
+.services-list li:last-of-type {
+  border-bottom: none;
+}
+
+.services-list p {
+  margin: 0;
+}
+
+.service-name {
+  font-size: 1.3em;
+}
+
+.service-price {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.service-duration {
+  color: var(--disabled);
+}
+
+.longer {
+  width: 25%;
+}
+
+.logo-services {
+  top: auto;
+  left: auto;
+  right: -12%;
+  bottom: 55%;
+  transform: translateY(50%);
 }
