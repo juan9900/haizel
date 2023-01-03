@@ -332,7 +332,7 @@ footer p {
 /* CONTACT PAGE */
 
 .header-contact {
-  height: 50vh;
+  height: 30vh;
 }
 
 .separator-contact-header {
@@ -428,4 +428,65 @@ footer p {
 }
 .contact-icon {
   width: 9%;
+}
+
+/* BOOKING PAGE */
+
+.title-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divider-container {
+  top: 60%;
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.title-divider div {
+  height: 7px;
+  width: 100%;
+  background-color: #e8e73d;
+}
+
+.title-divider p {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2.4em;
+  line-height: 55px;
+}
+
+.title-divider p span {
+  font-family: "Autography";
+  font-size: 3em;
+  background: -webkit-linear-gradient(rgb(255, 238, 6), rgb(176, 167, 43));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.booking-container {
+  max-width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.btn-booking {
+  background: rgb(221, 199, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 199, 107, 1) 0%,
+    rgba(243, 238, 164, 1) 100%
+  );
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  margin-top: 2rem;
 }
