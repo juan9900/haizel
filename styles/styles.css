@@ -84,6 +84,8 @@ header {
 .header-index {
   background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
     url("/assets/img/fotoinicio.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .header-text {
