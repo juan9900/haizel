@@ -14,60 +14,65 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800&display=swap" rel="stylesheet">
   <title>Haizel</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
-  <header class="position-relative header-index">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="/index.html">
-          <img src="/assets/img/logosinicono.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+    <div class="container-fluid  ps-md-5 pe-md-5">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/assets/img/logosinicono.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
 
-            <li class="nav-item">
-              <a class="nav-link" href="/services.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/booking.html">Booking</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="/services.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/booking.html">Booking</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <header class="position-relative header-index">
+
     <p class="header-text">Tus uñas son tu reflejo <br> <span>¡Cuídalas bien!</span></p>
   </header>
   <section class="section-categories position-relative">
     <img class="logo-background" src="assets/img/iconooutline.png" alt="logo">
-    <div class="categories-container d-flex flex-row justify-content-between">
-      <div class="category d-flex flex-column ">
+    <div class="categories-container d-flex flex-md-row flex-column justify-content-between">
+      <a href="/booking.html" class="category d-flex flex-column ">
         <img src="/assets/img/home/dip powder.png" alt="">
         <h3>Dip Powder</h3>
         <p>Book Now!</p>
-      </div>
-      <div class="category d-flex flex-column ">
+      </a>
+      <a href="/booking.html" class="category d-flex flex-column ">
         <img src="/assets/img/home/pedicura.png" alt="">
         <h3>Pedicura</h3>
         <p>Book Now!</p>
-      </div>
-      <div class="category d-flex flex-column ">
+      </a>
+      <a href="/booking.html" class="category d-flex flex-column ">
         <img src="/assets/img/home/gel.png" alt="">
         <h3>Gel</h3>
         <p>Book Now!</p>
-      </div>
-      <div class="category d-flex flex-column ">
+      </a>
+      <a href="/booking.html" class="category d-flex flex-column ">
         <img src="/assets/img/home/manicura.png" alt="">
         <h3>Manicura</h3>
         <p>Book Now!</p>
-      </div>
+      </a>
     </div>
   </section>
   <div class="separator position-relative">
@@ -105,22 +110,25 @@
     </div>
   </section>
 
-  <footer class="d-flex flex-row align-items-center justify-content-around">
+  <footer class="d-flex flex-lg-row flex-column align-items-center justify-content-around">
     <img src="/assets/img/icono.png" alt="logo haizel">
-    <p>836 N Thompson LN suite 1C <br>
+    <p class="pt-2 pb-2 pt-lg-0 pb-lg-0">836 N Thompson LN suite 1C <br>
       Murfreesboro TN 37129</p>
-      <div class="d-flex flex-row justify-content-between align-items-center socials">
-        <a href="mailto:haizelstudio@gmail.com" target="_blank"><img src="/assets/img/email.svg" alt="Contacto E-mail"></a>
-        <a href="https://www.instagram.com/haizelstudios/" target="_blank"><img src="/assets/img/instagram.svg" alt="Contacto instagram"></a>
-        <a href="https://wa.me/17862125361" target="_blank"><img src="/assets/img/whatsapp.svg" alt="Contacto Whatsapp"></a>
-      </div>
+    <div class="d-flex flex-row justify-content-between align-items-center socials">
+      <a href="mailto:haizelstudio@gmail.com" target="_blank"><img class="footer-icon" src="/assets/img/email.svg" alt="Contacto E-mail"></a>
+      <a href="https://www.instagram.com/haizelstudios/" target="_blank"><img class="footer-icon" src="/assets/img/instagram.svg" alt="Contacto instagram"></a>
+      <a href="https://wa.me/17862125361" target="_blank"><img class="footer-icon" src="/assets/img/whatsapp.svg" alt="Contacto Whatsapp"></a>
+    </div>
 
-    <p>
+    <p class="d-none d-lg-block">
       Lunes a Viernes: 8:00AM - 6:00PM <br>
       Sábados: 8:00AM - 5:00PM <br>
       Domingos: 10:00AM - 2:00PM
     </p>
   </footer>
+
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/waypoints.js"></script>
 </body>
 
 </html>
