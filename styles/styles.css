@@ -262,10 +262,10 @@ footer p {
   background-position: 0% 35%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
 }
 .section-services {
-  margin-bottom: 3rem;
+  margin: 3rem 0 4rem 0;
 }
 .section-title-container {
   background: var(--secondaryLight);
