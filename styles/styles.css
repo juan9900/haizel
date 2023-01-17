@@ -89,7 +89,7 @@ nav.navbar {
   height: 4rem;
 }
 header {
-  height: 100vh;
+  height: 40vh;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -348,10 +348,10 @@ footer p {
 /* CONTACT PAGE */
 
 .header-contact {
-  height: 60vh;
+  height: 40vh;
   background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
     url("/assets/img/foto-contacto.jpg");
-  background-position: 100% 20%;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -661,7 +661,7 @@ footer p {
 
   /* SERVICES PAGE */
   .header-services {
-    height: 50vh;
+    height: 40vh;
   }
 
   .title-divider p {
