@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 p {
@@ -100,13 +101,14 @@ header {
     url("/assets/img/fotoinicio.jpg");
   background-position: center;
   background-size: cover;
+  height: 80vh;
 }
 
 .header-text {
-  position: absolute;
-  left: 50%;
-  bottom: 10%;
-  transform: translateX(-50%);
+  /* position: absolute; */
+  /* left: 50%; */
+  /* bottom: 0; */
+  /* transform: translateX(-50%); */
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 3.4em;
@@ -116,10 +118,12 @@ header {
 .header-text span {
   font-family: "Autography";
   font-size: 2.8em;
-  background: -webkit-linear-gradient(rgb(255, 238, 6), rgb(176, 167, 43));
+  background: #efe187;
+  background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  color: #ceb524;
 }
 
 .logo-background {
@@ -130,7 +134,7 @@ header {
 }
 .categories-container {
   width: 70%;
-  margin: 5rem auto 0 auto;
+  margin: 8rem auto 0 auto;
 }
 
 .category {
@@ -177,9 +181,9 @@ header {
   font-weight: 300;
   font-family: "Autography";
   font-size: 2em;
-  background: -webkit-linear-gradient(rgb(255, 238, 6), rgb(176, 167, 43));
+  background: #efe187;
+  background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -262,7 +266,7 @@ footer p {
   background-position: 0% 35%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 40vh;
 }
 .section-services {
   margin: 3rem 0 4rem 0;
@@ -378,9 +382,9 @@ footer p {
 .separator-title {
   font-family: "Autography";
   font-size: 6em;
-  background: -webkit-linear-gradient(rgb(255, 238, 6), rgb(176, 167, 43));
+  background: #efe187;
+  background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
 }
@@ -500,9 +504,9 @@ footer p {
 .title-divider p span {
   font-family: "Autography";
   font-size: 3em;
-  background: -webkit-linear-gradient(rgb(255, 238, 6), rgb(176, 167, 43));
+  background: #efe187;
+  background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -562,6 +566,9 @@ footer p {
   }
 }
 @media screen and (max-width: 780px) {
+  .header-index {
+    height: 40vh;
+  }
   .header-text {
     font-size: 1.3em;
     bottom: 20%;
