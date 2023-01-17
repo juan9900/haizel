@@ -26,7 +26,7 @@ a {
   --secondaryPastel: #f7f4bf;
   --secondaryPastelHover: #f0edaa;
   --tertiary: #daa8b3;
-  --disabled: rgb(187, 187, 187);
+  --disabled: rgb(129, 129, 129);
 }
 
 .container-small {
@@ -109,7 +109,7 @@ header {
   transform: translateX(-50%);
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  font-size: 2.4em;
+  font-size: 3.4em;
   line-height: 55px;
 }
 
@@ -269,9 +269,10 @@ footer p {
 }
 .section-title-container {
   background: var(--secondaryLight);
-  height: 6rem;
-  width: 22%;
-  padding: 0.5rem 0;
+  height: 4.5rem;
+  width: fit-content;
+
+  padding: 0.5rem 3rem 0.5rem 0;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
   padding-left: 2rem;
@@ -299,6 +300,11 @@ footer p {
 .services-list li {
   border-bottom: 1px solid var(--secondary);
   padding: 0.7rem 2rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.services-list li:hover {
+  background-color: rgb(234, 234, 234);
 }
 
 .services-list li:last-of-type {
@@ -323,7 +329,8 @@ footer p {
 }
 
 .longer {
-  width: 25%;
+  width: fit-content;
+  padding-right: 3rem;
 }
 
 .logo-services {
@@ -337,12 +344,16 @@ footer p {
 /* CONTACT PAGE */
 
 .header-contact {
-  height: 30vh;
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
+    url("/assets/img/foto-contacto.jpg");
+  background-position: 100% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .separator-contact-header {
   position: relative;
-  z-index: -1;
   top: 50%;
   width: 100%;
   height: 7px;
@@ -350,13 +361,12 @@ footer p {
   background: rgb(255, 255, 255);
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 60%,
     rgba(232, 231, 61, 1) 100%
   );
 }
 
 .separator-title-container {
-  background: #fff;
   width: fit-content;
   position: absolute;
   left: 50%;
@@ -443,9 +453,17 @@ footer p {
 
 /* BOOKING PAGE */
 
+.header-booking {
+  background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
+    url("/assets/img/foto-booking.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
 .title-divider {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -459,7 +477,16 @@ footer p {
 .title-divider div {
   height: 7px;
   width: 100%;
-  background-color: #e8e73d;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(232, 231, 61, 1) 100%
+  );
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: -1;
 }
 
 .title-divider p {
@@ -509,14 +536,14 @@ footer p {
   .gallery-container {
     max-width: 80%;
   }
-  .section-title-container {
+  /* .section-title-container {
     width: 20rem;
     height: 4.5rem;
-  }
+  } */
 
-  .longer {
+  /* .longer {
     width: 23rem;
-  }
+  } */
   .services-list p {
     margin-right: 1rem;
   }
@@ -599,7 +626,13 @@ footer p {
   }
 
   .service-duration {
-    text-align: right;
+    text-align: left;
+    font-size: 0.8em;
+    padding-top: 0.7rem;
+  }
+
+  .section-title-container h2 {
+    font-size: 1.5em;
   }
 
   /* CONTACT PAGE */
@@ -651,11 +684,19 @@ footer p {
   .section-title-container h2 {
     margin: 0;
     font-weight: 200;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
-  .longer {
+  /* .longer {
     width: 17rem;
+  } */
+  .title-divider div {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(232, 231, 61, 1) 100%
+    );
   }
 }
 @media screen and (min-width: 768px) {
@@ -668,14 +709,14 @@ footer p {
 }
 
 @media screen and (min-width: 1200px) {
-  .section-title-container {
+  /* .section-title-container {
     width: 25%;
     height: 4.5rem;
-  }
+  } */
 
-  .longer {
+  /* .longer {
     width: 35%;
-  }
+  } */
 }
 
 @media screen and (min-width: 1450px) {
@@ -685,12 +726,12 @@ footer p {
   .category {
     width: 100%;
   }
-  .section-title-container {
+  /* .section-title-container {
     width: 20%;
     height: 4.5rem;
-  }
+  } */
 
-  .longer {
+  /* .longer {
     width: 25%;
-  }
+  } */
 }
