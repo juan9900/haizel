@@ -101,7 +101,7 @@ header {
     url("/assets/img/fotoinicio.jpg");
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
 }
 
 .header-text {
@@ -121,14 +121,19 @@ header {
   background: #efe187;
   background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   color: #ceb524;
+
+  display: block;
+  padding: 4rem 1rem;
+  margin-top: -3rem;
 }
 
 .logo-background {
   position: absolute;
-  top: -90%;
+  top: -60%;
   left: -5%;
   width: 35%;
 }
@@ -187,6 +192,12 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
+a.check-more {
+  margin: 0;
+}
+div.check-more-container {
+  margin-top: 4rem;
+}
 .gallery-container {
   /* grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(150px auto);
@@ -308,7 +319,7 @@ footer p {
 }
 
 .services-list li:hover {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(243, 243, 243);
 }
 
 .services-list li:last-of-type {
@@ -459,11 +470,11 @@ footer p {
 
 .header-booking {
   background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
-    url("/assets/img/foto-booking.jpg");
-  background-position: center;
+    url("/assets/img/pexels-designecologist-887352\ \(1\).jpg");
+  background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 60vh;
 }
 .title-divider {
   display: flex;
@@ -507,11 +518,13 @@ footer p {
   background: #efe187;
   background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 1rem;
 }
 
 .booking-container {
-  max-width: 25%;
+  max-width: 32%;
   margin: 0 auto;
   text-align: center;
   font-size: 1.2em;
@@ -577,7 +590,7 @@ footer p {
     font-size: 6rem;
   }
   .categories-container {
-    margin: 1rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     width: 75%;
   }
 
@@ -672,6 +685,10 @@ footer p {
   .booking-container {
     max-width: 80%;
   }
+
+  .header-booking {
+    height: 40vh;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -724,6 +741,12 @@ footer p {
   /* .longer {
     width: 35%;
   } */
+
+  /* Booking page */
+  /* SERVICES PAGE */
+  .header-booking {
+    height: 40vh;
+  }
 }
 
 @media screen and (min-width: 1450px) {
