@@ -523,6 +523,19 @@ footer p {
   padding: 1rem;
 }
 
+.title-divider p.special {
+  font-family: "Autography";
+  font-size: 6em;
+  background: #efe187;
+  background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2rem 2rem 1rem 2rem;
+  margin-top: -3rem;
+}
+
 .booking-container {
   max-width: 32%;
   margin: 0 auto;
@@ -578,7 +591,11 @@ footer p {
     max-width: 80%;
   }
 }
+
 @media screen and (max-width: 780px) {
+  .header-text-services span {
+    padding-top: 1rem;
+  }
   .header-index {
     height: 40vh;
   }
@@ -587,7 +604,11 @@ footer p {
     bottom: 20%;
   }
   .header-text span {
-    font-size: 6rem;
+    font-size: 5rem;
+  }
+
+  .title-divider p.special {
+    font-size: 5em;
   }
   .categories-container {
     margin: 3rem auto 0 auto;
@@ -688,6 +709,18 @@ footer p {
 
   .header-booking {
     height: 40vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title-divider p {
+    font-size: 1.2em;
+  }
+  .title-divider p.special {
+    font-size: 4em;
+  }
+  .title-divider p span {
+    font-size: 5em;
   }
 }
 
