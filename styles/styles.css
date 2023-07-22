@@ -98,7 +98,7 @@ header {
 
 .header-index {
   background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
-    url("/assets/img/fotoinicio.jpg");
+    url("/assets/img/fotoinicio.webp");
   background-position: center;
   background-size: cover;
   height: 58vh;
@@ -273,7 +273,7 @@ footer p {
 
 .header-services {
   background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
-    url("/assets/img/fotoservicios.jpg");
+    url("/assets/img/fotoservicios.webp");
   background-position: 0% 35%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -361,7 +361,7 @@ footer p {
 .header-contact {
   height: 40vh;
   background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
-    url("/assets/img/foto-contacto.jpg");
+    url("/assets/img/foto-contacto.webp");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -470,7 +470,7 @@ footer p {
 
 .header-booking {
   background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
-    url("/assets/img/pexels-designecologist-887352\ \(1\).jpg");
+    url("/assets/img/foto-booking.webp");
   background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -523,17 +523,18 @@ footer p {
   padding: 1rem;
 }
 
-.title-divider p.special {
+.special {
   font-family: "Autography";
-  font-size: 6em;
+  font-size: 9em;
   background: #efe187;
   background: linear-gradient(to bottom, #efe187 0%, #f1eca3 50%, #b2813a 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
   margin-top: -3rem;
+  text-align: center;
 }
 
 .booking-container {
@@ -559,6 +560,45 @@ footer p {
   margin-top: 2rem;
 }
 
+/* 
+FIND US PAGE */
+
+.header-find {
+  background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 255, 255)),
+    url("/assets/img/local/studio-5.png");
+  background-position-x: 0%, 0%;
+  background-position-y: 0%, 0%;
+  background-repeat: repeat, repeat;
+  background-size: auto, auto;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map-container {
+  max-width: 50%;
+  margin: 0 auto;
+  height: 37rem;
+  background: var(--secondaryPastel);
+  border-radius: 2rem;
+}
+
+.map-container h2 {
+  padding: 1rem 0 0 1rem;
+  font-weight: 500;
+}
+
+.map-container iframe {
+  border-radius: 2rem;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 5px 5px 10px #00000053;
+}
+
+.header-text-services.find {
+  margin-top: -3rem;
+}
 @media screen and (max-width: 1450px) {
   .category {
     margin-bottom: 2.5rem;
@@ -590,6 +630,14 @@ footer p {
   .contact-grid {
     max-width: 80%;
   }
+
+  .map-container {
+    max-width: 90%;
+  }
+
+  .header-text-services.find {
+    margin-top: -2rem;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -607,7 +655,7 @@ footer p {
     font-size: 5rem;
   }
 
-  .title-divider p.special {
+  .special {
     font-size: 5em;
   }
   .categories-container {
@@ -716,7 +764,7 @@ footer p {
   .title-divider p {
     font-size: 1.2em;
   }
-  .title-divider p.special {
+  .special {
     font-size: 4em;
   }
   .title-divider p span {

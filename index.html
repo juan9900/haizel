@@ -1,145 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/reset.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/reset.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Haizel</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800&display=swap" rel="stylesheet">
-  <title>Haizel</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
 
-  <link rel="stylesheet" href="/styles/styles.css">
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
-    <div class="container-fluid  ps-md-5 pe-md-5">
-      <a class="navbar-brand" href="/index.html">
-        <img src="/assets/img/logosinicono.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-
-          <li class="nav-item">
-            <a class="nav-link" href="/services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/booking.html">Booking</a>
-          </li>
-        </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+      <div class="container-fluid ps-md-5 pe-md-5">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/img/logosinicono.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/findus.html">Find Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/booking.html">Booking</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="position-relative header-index"></header>
+    <!-- <p class="header-text position-relative">Your nails are your reflection <br> <span>Take care of them!</span></p> -->
+    <div class="position-relative divider-container">
+      <div class="title-divider">
+        <h1 class="special">Haizel Studio</h1>
+        <p></p>
+        <p></p>
       </div>
     </div>
-  </nav>
-  <header class="position-relative header-index">
 
-  </header>
-  <!-- <p class="header-text position-relative">Your nails are your reflection <br> <span>Take care of them!</span></p> -->
-  <div class="position-relative divider-container">
-    <div class="title-divider">
-      <p class="header-text-services">Your nails are your reflection</p>
-      <p class="special">Take care of them!</p>
+    <section class="section-categories position-relative">
+      <img
+        class="logo-background"
+        src="assets/img/iconooutline.png"
+        alt="logo"
+      />
+      <div
+        class="categories-container d-flex flex-md-row flex-column justify-content-between"
+      >
+        <a href="/booking.html" class="category d-flex flex-column">
+          <img src="/assets/img/home/dip powder.png" alt="" />
+          <h3>Dip Powder</h3>
+          <p>Book Now!</p>
+        </a>
+        <a href="/booking.html" class="category d-flex flex-column">
+          <img src="/assets/img/home/pedicura.png" alt="" />
+          <h3>Pedicure</h3>
+          <p>Book Now!</p>
+        </a>
+        <a href="/booking.html" class="category d-flex flex-column">
+          <img src="/assets/img/home/gel.png" alt="" />
+          <h3>Gel</h3>
+          <p>Book Now!</p>
+        </a>
+        <a href="/booking.html" class="category d-flex flex-column">
+          <img src="/assets/img/hands/hands-30.webp" alt="" />
+          <h3>Manicure</h3>
+          <p>Book Now!</p>
+        </a>
+      </div>
+
+      <div
+        class="booking-container d-flex flex-column justify-content-center align-items-center check-more-container"
+      >
+        <a class="btn-booking check-more" href="/services.html">See more</a>
+      </div>
+    </section>
+    <div class="separator position-relative">
+      <img src="/assets/img/iconoopacidad.png" alt="" />
     </div>
-  </div>
+    <section class="section-gallery">
+      <h2 class="section-title">
+        Our <br />
+        <span>Gallery</span>
+      </h2>
 
-  <section class="section-categories position-relative">
-    <img class="logo-background" src="assets/img/iconooutline.png" alt="logo">
-    <div class="categories-container d-flex flex-md-row flex-column justify-content-between">
-      <a href="/booking.html" class="category d-flex flex-column ">
-        <img src="/assets/img/home/dip powder.png" alt="">
-        <h3>Dip Powder</h3>
-        <p>Book Now!</p>
-      </a>
-      <a href="/booking.html" class="category d-flex flex-column ">
-        <img src="/assets/img/home/pedicura.png" alt="">
-        <h3>Pedicure</h3>
-        <p>Book Now!</p>
-      </a>
-      <a href="/booking.html" class="category d-flex flex-column ">
-        <img src="/assets/img/home/gel.png" alt="">
-        <h3>Gel</h3>
-        <p>Book Now!</p>
-      </a>
-      <a href="/booking.html" class="category d-flex flex-column ">
-        <img src="/assets/img/home/manicura.png" alt="">
-        <h3>Manicure</h3>
-        <p>Book Now!</p>
-      </a>
-    </div>
+      <div class="gallery-container">
+        <div class="one">
+          <img src="/assets/img/hands/hands-5.webp" alt="" />
+        </div>
 
-    <div class="booking-container d-flex flex-column justify-content-center align-items-center check-more-container">
-      <a class="btn-booking check-more" href="/services.html">See more</a>
-    </div>
-  </section>
-  <div class="separator position-relative">
-    <img src="/assets/img/iconoopacidad.png" alt="">
-  </div>
-  <section class="section-gallery">
-    <h2 class="section-title">
-      Our <br> <span>Gallery</span>
-    </h2>
+        <div class="two">
+          <img src="/assets/img/hands/hands-6.webp" alt="" />
+        </div>
 
-    <div class="gallery-container">
-      <div class="one">
-        <img src="/assets/img/home/galeria1.png" alt="">
+        <div class="three">
+          <img src="/assets/img/hands/hands-1.webp" alt="" />
+        </div>
+
+        <div class="four">
+          <img src="/assets/img/hands/hands-25.webp" alt="" />
+        </div>
+
+        <div class="five">
+          <img src="/assets/img/hands/hands-29.webp" alt="" />
+        </div>
+
+        <div class="six">
+          <img src="/assets/img/hands/hands-19.webp" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="d-flex flex-lg-row flex-column align-items-center justify-content-around"
+    >
+      <img src="/assets/img/icono.png" alt="logo haizel" />
+      <p class="pt-2 pb-2 pt-lg-0 pb-lg-0">
+        836 N Thompson LN suite 1C <br />
+        Murfreesboro TN 37129
+      </p>
+      <div
+        class="d-flex flex-row justify-content-between align-items-center socials"
+      >
+        <a href="mailto:haizelstudio@gmail.com" target="_blank"
+          ><img
+            class="footer-icon"
+            src="/assets/img/email.svg"
+            alt="Contacto E-mail"
+        /></a>
+        <a href="https://www.instagram.com/haizelstudios/" target="_blank"
+          ><img
+            class="footer-icon"
+            src="/assets/img/instagram.svg"
+            alt="Contacto instagram"
+        /></a>
+        <a href="https://wa.me/17862125361" target="_blank"
+          ><img
+            class="footer-icon"
+            src="/assets/img/whatsapp.svg"
+            alt="Contacto Whatsapp"
+        /></a>
       </div>
 
-      <div class="two">
-        <img src="/assets/img/home/galeria2.png" alt="">
-      </div>
+      <p class="d-none d-lg-block">
+        Monday to Friday: 8:00AM - 6:00PM <br />
+        Saturday: 8:00AM - 5:00PM <br />
+        Sunday: 10:00AM - 2:00PM
+      </p>
+    </footer>
 
-      <div class="three">
-        <img src="/assets/img/home/galeria3.png" alt="">
-      </div>
-
-      <div class="four">
-        <img src="/assets/img/home/galeria4.png" alt="">
-      </div>
-
-      <div class="five">
-        <img src="/assets/img/home/galeria5.png" alt="">
-      </div>
-
-      <div class="six">
-        <img src="/assets/img/home/galeria6.png" alt="">
-      </div>
-    </div>
-  </section>
-
-  <footer class="d-flex flex-lg-row flex-column align-items-center justify-content-around">
-    <img src="/assets/img/icono.png" alt="logo haizel">
-    <p class="pt-2 pb-2 pt-lg-0 pb-lg-0">836 N Thompson LN suite 1C <br>
-      Murfreesboro TN 37129</p>
-    <div class="d-flex flex-row justify-content-between align-items-center socials">
-      <a href="mailto:haizelstudio@gmail.com" target="_blank"><img class="footer-icon" src="/assets/img/email.svg" alt="Contacto E-mail"></a>
-      <a href="https://www.instagram.com/haizelstudios/" target="_blank"><img class="footer-icon" src="/assets/img/instagram.svg" alt="Contacto instagram"></a>
-      <a href="https://wa.me/17862125361" target="_blank"><img class="footer-icon" src="/assets/img/whatsapp.svg" alt="Contacto Whatsapp"></a>
-    </div>
-
-    <p class="d-none d-lg-block">
-      Monday to Friday: 8:00AM - 6:00PM <br>
-      Saturday: 8:00AM - 5:00PM <br>
-      Sunday: 10:00AM - 2:00PM
-    </p>
-  </footer>
-
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/waypoints.js"></script>
-</body>
-
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/waypoints.js"></script>
+  </body>
 </html>
